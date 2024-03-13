@@ -1,13 +1,14 @@
 /******* Bootstrap Theming ********/
 
-$primary: #F9A392;
-$secondary: #6EBBF6;
-$light: #FEF1EF;
+$primary: #3f85f0;
+$secondary: #706ef6;
+$light: #fef1ef;
 $dark: #211E1C;
+
 
 $font-family-sans-serif: 'Poppins', sans-serif;
 
-$body-color: #757575;
+$body-color: #3586ff;
 
 $headings-color: $dark;
 
@@ -176,7 +177,7 @@ h6,
 }
 
 .bg-appointment {
-    background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-1.jpg), no-repeat center center;
+    background: linear-gradient(rgba(56, 87, 134, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-1.jpg), no-repeat center center;
     background-size: cover;
 }
 
