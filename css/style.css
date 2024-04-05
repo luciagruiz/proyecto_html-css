@@ -9611,6 +9611,11 @@ h6,
   background-size: cover;
 }
 
+.bg-nosotros {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-4.jpg), no-repeat center center;
+  background-size: cover;
+}
+
 @media (min-width: 992px) {
   .hours-text,
   .pricing-text,
