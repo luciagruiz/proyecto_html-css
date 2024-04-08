@@ -100,8 +100,13 @@ address {
 }
 
 ol,
-ul,
 dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style-type: decimal;
+}
+
+ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -1539,6 +1544,7 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
+  text-align: center;
   border-top: 1px solid #dee2e6;
 }
 
@@ -9613,6 +9619,11 @@ h6,
 
 .bg-nosotros {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-4.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-productos {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-5.jpg), no-repeat center center;
   background-size: cover;
 }
 
